@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/MyProjects/Android/MovieFinder/app/src/main/res/drawable/icons_splash.xml" value="0.1955" />
+        <entry key="..\:/MyProjects/Android/MovieFinder/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/MyProjects/Android/MovieFinder/app/src/main/res/layout/activity_splash.xml" value="0.20244565217391305" />
+        <entry key="..\:/MyProjects/Android/MovieFinder/app/src/main/res/menu/bottom_navigation.xml" value="0.253125" />
       </map>
     </option>
   </component>
