@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/navMenu1" android:title="First Menu"/>
+    <item android:id="@+id/navMenu2" android:title="Second Menu"/>
+    <item android:id="@+id/navMenu3" android:title="Third Menu"/>
+</menu>
