@@ -1,7 +1,8 @@
-package com.example.moviefinder
+package com.example.moviefinder.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.moviefinder.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

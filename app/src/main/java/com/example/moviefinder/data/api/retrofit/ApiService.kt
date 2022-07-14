@@ -1,7 +1,7 @@
-package com.example.moviefinder.data.retrofit
+package com.example.moviefinder.data.api.retrofit
 
 import com.example.moviefinder.data.MovieItemResponse
-import com.example.moviefinder.data.response.TvItemResponse
+import com.example.moviefinder.data.api.response.TvItemResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path

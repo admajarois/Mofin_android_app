@@ -1,4 +1,4 @@
-package com.example.moviefinder.ui.home
+package com.example.moviefinder.ui.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

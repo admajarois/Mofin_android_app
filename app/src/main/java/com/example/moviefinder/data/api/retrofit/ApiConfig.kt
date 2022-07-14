@@ -1,4 +1,4 @@
-package com.example.moviefinder.data.retrofit
+package com.example.moviefinder.data.api.retrofit
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

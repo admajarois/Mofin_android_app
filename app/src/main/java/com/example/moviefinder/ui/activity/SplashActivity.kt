@@ -1,11 +1,11 @@
-package com.example.moviefinder
+package com.example.moviefinder.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.view.Window
 import android.view.WindowManager
+import com.example.moviefinder.R
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

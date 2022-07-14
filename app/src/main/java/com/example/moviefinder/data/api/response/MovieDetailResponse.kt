@@ -1,4 +1,4 @@
-package com.example.moviefinder.data.response
+package com.example.moviefinder.data.api.response
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
