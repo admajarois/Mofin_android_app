@@ -20,7 +20,7 @@ data class TvDetailResponse(
 	val type: String,
 
 	@field:SerializedName("backdrop_path")
-	val backdropPath: Any,
+	val backdropPath: String,
 
 	@field:SerializedName("genres")
 	val genres: List<GenresItem>,
@@ -53,7 +53,7 @@ data class TvDetailResponse(
 	val languages: List<String>,
 
 	@field:SerializedName("created_by")
-	val createdBy: List<Any>,
+	val createdBy: List<String>,
 
 	@field:SerializedName("last_episode_to_air")
 	val lastEpisodeToAir: LastEpisodeToAir,
@@ -105,16 +105,6 @@ data class TvDetailResponse(
 ) : Parcelable
 
 @Parcelize
-data class ProductionCountriesItem(
-
-	@field:SerializedName("iso_3166_1")
-	val iso31661: String,
-
-	@field:SerializedName("name")
-	val name: String
-) : Parcelable
-
-@Parcelize
 data class LastEpisodeToAir(
 
 	@field:SerializedName("production_code")
@@ -148,7 +138,7 @@ data class LastEpisodeToAir(
 	val id: Int,
 
 	@field:SerializedName("still_path")
-	val stillPath: Any,
+	val stillPath: String,
 
 	@field:SerializedName("vote_count")
 	val voteCount: Int
@@ -229,47 +219,8 @@ data class NextEpisodeToAir(
 	val id: Int,
 
 	@field:SerializedName("still_path")
-	val stillPath: Any,
+	val stillPath: String,
 
 	@field:SerializedName("vote_count")
 	val voteCount: Int
-) : Parcelable
-
-@Parcelize
-data class GenresItem(
-
-	@field:SerializedName("name")
-	val name: String,
-
-	@field:SerializedName("id")
-	val id: Int
-) : Parcelable
-
-@Parcelize
-data class SpokenLanguagesItem(
-
-	@field:SerializedName("name")
-	val name: String,
-
-	@field:SerializedName("iso_639_1")
-	val iso6391: String,
-
-	@field:SerializedName("english_name")
-	val englishName: String
-) : Parcelable
-
-@Parcelize
-data class ProductionCompaniesItem(
-
-	@field:SerializedName("logo_path")
-	val logoPath: String,
-
-	@field:SerializedName("name")
-	val name: String,
-
-	@field:SerializedName("id")
-	val id: Int,
-
-	@field:SerializedName("origin_country")
-	val originCountry: String
 ) : Parcelable

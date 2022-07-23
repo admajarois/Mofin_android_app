@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favorite"
+            android:title="@string/favorite"
+            android:icon="@drawable/ic_baseline_favorite_24" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_baseline_settings_24"/>
+    </group>
+    <item android:title="@string/genres">
+        <menu>
+            <item
+                android:id="@+id/genre_action"
+                android:title="@string/genre_action"/>
+
+            <item
+                android:id="@+id/genre_comedy"
+                android:title="@string/genre_comedy"/>
+
+            <item
+                android:id="@+id/genre_drama"
+                android:title="@string/genre_drama"/>
+
+            <item
+                android:id="@+id/genre_fantasy"
+                android:title="@string/genre_fantasy"/>
+
+            <item
+                android:id="@+id/genre_horror"
+                android:title="@string/genre_horror"/>
+
+            <item
+                android:id="@+id/genre_mystery"
+                android:title="@string/genre_mystery"/>
+
+            <item
+                android:id="@+id/genre_romance"
+                android:title="@string/genre_romance"/>
+
+            <item
+                android:id="@+id/Thriller"
+                android:title="@string/genre_thriller"/>
+
+            <item
+                android:id="@+id/genre_western"
+                android:title="@string/genre_western"/>
+        </menu>
+    </item>
+
+</menu>

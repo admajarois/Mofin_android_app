@@ -9,4 +9,19 @@
     <string name="show_all">Show all</string>
     <string name="movie_image">movie image</string>
     <string name="item_title">item title</string>
+    <string name="gambar_film">Gambar film</string>
+    <string name="title">Title</string>
+    <string name="gambar_profil">gambar profil</string>
+    <string name="favorite">Favorite</string>
+    <string name="settings">Settings</string>
+    <string name="genres">Genres</string>
+    <string name="genre_action">Action</string>
+    <string name="genre_comedy">Comedy</string>
+    <string name="genre_drama">Drama</string>
+    <string name="genre_fantasy">Fantasy</string>
+    <string name="genre_horror">Horror</string>
+    <string name="genre_mystery">Mystery</string>
+    <string name="genre_romance">Romance</string>
+    <string name="genre_thriller">Thriller</string>
+    <string name="genre_western">Western</string>
 </resources>
