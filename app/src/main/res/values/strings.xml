@@ -13,4 +13,10 @@
     <string name="title_horror">Horror</string>
     <string name="title_romance">Romance</string>
     <string name="title_thriller">Thriller</string>
+    <string name="gambar_film">poset</string>
+    <string name="title">Judul Film</string>
+    <string name="popular">Popular Movie</string>
+    <string name="show_all">Show All</string>
+    <string name="movie_image">movie poster</string>
+    <string name="item_title">Judul film</string>
 </resources>
