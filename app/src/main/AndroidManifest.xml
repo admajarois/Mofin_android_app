@@ -14,12 +14,12 @@
         android:theme="@style/Theme.Mofin"
         tools:targetApi="31" >
         <activity
-            android:name=".ui.activity.SplashActivity"
-            android:exported="false" />
-        <activity
             android:name=".ui.activity.MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.Mofin.NoActionBar">
+            android:exported="false"
+            android:theme="@style/Theme.Mofin.NoActionBar"/>
+        <activity
+            android:name=".ui.activity.SplashActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
